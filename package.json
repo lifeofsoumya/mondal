@@ -1,6 +1,6 @@
 {
   "name": "mondal",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -8,6 +8,9 @@
     "dev": "echo \"opin the chat\" && node index",
     "start": "echo creating mondal config file && node index"
 
+  },
+  "bin": {
+    "mondal": "./index.js"
   },
   "author": "",
   "license": "ISC",
